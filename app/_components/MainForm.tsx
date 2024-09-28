@@ -29,7 +29,6 @@ const initialState = {
 const MainForm = () => {
   const [oldCode, setOldCode] = useState<string>("hello");
   const [state, formAction] = useFormState(makePerfect, initialState);
-  const { pending } = useFormStatus();
   return (
     <form
       action={formAction}
