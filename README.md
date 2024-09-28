@@ -13,5 +13,5 @@ This project provides an interface for users to check their texts. Users can inp
 - **TypeScript:** For type safety and better development experience.
 - **Tailwind CSS:** For styling and layout.
 - **Azure SDK for AI:** For integrating AI features.
-- **Diff Library:** For comparing text differences.
+- **eact-diff-viewer-continued:** For comparing text differences.
 
