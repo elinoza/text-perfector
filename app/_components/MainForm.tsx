@@ -1,4 +1,6 @@
 "use client";
+
+import React from "react";
 import { useFormState, useFormStatus } from "react-dom";
 import { useState } from "react";
 
@@ -62,7 +64,7 @@ const MainForm = () => {
               Original Text
             </label>{" "}
             <textarea
-              className="w-full h-full resize-none focus:outline-none  bg-transparent dark:text-white"
+              className="w-full h-full resize-none focus:outline-none  bg-transparent"
               id="uncheckedText"
               name="uncheckedText"
               placeholder="Type something for AI to check..."
@@ -71,7 +73,7 @@ const MainForm = () => {
               autoFocus
             />
           </div>
-          <div className="flex-1 m-1 h-full p-3 border border-neutral-200 overflow-auto dark:text-white">
+          <div className="flex-1 m-1 h-full p-3 border border-neutral-200 overflow-auto">
             <span className="text-sm text-neutral-400">
               {" "}
               Corrected Text by AI
